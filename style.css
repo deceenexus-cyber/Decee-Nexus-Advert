@@ -1,0 +1,125 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+body{ 
+  background-color: #D6D6D6;
+  line-height: 1.5;
+}
+
+
+header{
+  background-color: #2C149C;
+  color: white;
+  text-align: center ;
+  padding: 30px 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h1{
+  font-size:2.5rem ;
+  
+}
+
+nav{
+  text-align: center ;
+  text-decoration: none;
+  word-spacing: 30px;
+  background-color:#F1F1F1;
+  padding: 10px 0;
+}
+
+nav a{
+  font-weight:bold;
+  color:#2C149C;
+  margin:15px 0;
+  
+}
+
+.section{
+  padding: 30px 20px;
+  max-width: 1000%;
+  margin: auto;
+  
+ 
+}
+
+.section h2{
+  color: #2C149C ;
+  margin-bottom: 20px;
+  
+}
+
+.image-gallery{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap ;
+  justify-content: space-around;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  
+}
+
+.image-gallery div{
+  text-align: center;
+  width: 120px;
+  
+  
+}
+
+.image-gallery img{
+  height: auto;
+  width: 120%;
+  border-radius: 5px;
+  object-fit: center;
+ 
+}
+
+.link{
+  text-decoration: none;
+  background-color:#2C149C;
+  color: #fff;
+  border-radius: 2px;
+}
+
+ul{
+  padding-left: 15px ;
+  list-style-type: square;
+}
+
+.cu{
+  background-color:#2C149C;
+  padding: 30px 20px;
+}
+.cu h2{
+  color: white;
+  font-size: 2.2rem;
+  text-align: center;
+  
+}
+
+.cu label{
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+}
+  
+  
+.cu a{
+  text-decoration: none;
+  color: #FFF;
+  padding: 5px;
+}
+.cu a:focus{
+  border-radius: 10px;
+  border: 2px solid #fff ;
+}
+  
+  
+  
